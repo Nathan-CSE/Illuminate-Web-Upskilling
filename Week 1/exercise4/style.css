@@ -1,0 +1,95 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30,42,59);
+}
+
+.house_type {
+    color: rgb(93,107,126);
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.house_name {
+    color: rgb(242,243,244);
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
+.star {
+    position: relative;
+    top: 35px;
+    left: 10px; 
+}
+
+.rating {
+    position: relative;
+    top: -5px;
+    left: 50px;   
+}
+
+.dot {
+    position: relative;
+    top: 10px;
+    left: 50px;  
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    color: rgb(97,110,130);
+}
+
+.location {
+    position: relative;
+    top: -42px;
+    left: 170px;  
+}
+
+.place {
+    position: relative;
+    top: -82px;
+    left: 200px;     
+    color: rgb(93,107,126);
+}
+
+.button {
+    position: relative;
+    top: -70px;
+    left: 10px;  
+    background-color: rgb(86,91,208);
+    color: white;
+    border-radius: 5px;   
+    border-width: 0;
+    padding: 12px;
+}
+
+.description {
+    position: relative;
+    top: -65px;
+    left: 10px;      
+    color: rgb(110,123,143);
+}
+
+.b1 {
+    height: 219px;
+    position: relative;
+    top: -380px;
+    left: 600px;    
+    border-radius: 5px;
+}
+
+.b2 {
+    height: 150px;
+    position: relative;
+    top: -210px;
+    left: 90px;    
+    border-radius: 5px;
+}
+
+.b4 {
+    height: 150px;
+    position: relative;
+    top: -210px;
+    left: 100px;    
+    border-radius: 5px;    
+}

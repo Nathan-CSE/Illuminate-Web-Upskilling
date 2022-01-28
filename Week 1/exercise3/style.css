@@ -1,0 +1,55 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    color: rgb(131,108,177);
+
+}
+
+.text_input {
+    border-radius: 5px;
+    border-width: 1px;
+    height: 25px;
+    width: 400px;
+    padding: 5px;
+}
+
+.region {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 1px;
+    height: 38px;
+    padding: 5px;
+    text-align: center;
+}
+
+.number_input {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 1px;
+    height: 27px;
+    width: 340px;
+    position: relative;
+    left: -5px;
+    padding: 5px;
+}
+
+.description_input {
+    border-radius: 5px;
+    border-width: 1px;
+    height: 125px;
+    width: 400px;
+    padding: 5px;
+}
+
+.submit_box {
+    text-align: center;
+    background-color: rgb(115,75,213);
+    border-radius: 5px; 
+    border-width: 0px;
+    color: white;
+    height: 45px;
+    width: 420px;
+}
+
