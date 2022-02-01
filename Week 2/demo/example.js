@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // console.log("hello world");
 
 const fruit = ["apple", "orange", "banana"];
@@ -23,6 +24,8 @@ for (const fruit in inventory) {
 const filteredFruit = fruit.filter((item) => item.startsWith("a"));
 console.log(filteredFruit);
 =======
+=======
+>>>>>>> 2e07c9ee900eeabc3a7b639e5c479fe4e289b12e
 // console.log("hello world");
 
 const fruit = ["apple", "orange", "banana"];
@@ -46,4 +49,7 @@ for (const fruit in inventory) {
 
 const filteredFruit = fruit.filter((item) => item.startsWith("a"));
 console.log(filteredFruit);
+<<<<<<< HEAD
+>>>>>>> 2e07c9ee900eeabc3a7b639e5c479fe4e289b12e
+=======
 >>>>>>> 2e07c9ee900eeabc3a7b639e5c479fe4e289b12e
