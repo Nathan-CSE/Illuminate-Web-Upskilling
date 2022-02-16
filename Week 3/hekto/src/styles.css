@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #161875;
+}
+
+.bigcontainer {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* === NAVBAR === */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 100vw;
+  gap: 50px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navItems > * {
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  margin-left: 20px;
+  color: #fb4693;
+  height: 20px;
+  width: 50px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.searchBtn {
+  background-color: #fb4693;
+  padding: 2px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  box-sizing: border-box;
+}
+
+.searchInput {
+  box-sizing: border-box;
+  height: 25px;
+  width: 150px;
+  border: 1px solid #c2c1c9;
+  border-right: none;
+  padding: 4px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+/* === HERO ==  */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f0ff;
+  height: 500px;
+}
+
+.heroInfo {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heroImage {
+  width: 400px;
+}
+
+.subHeading {
+  color: #fb4693;
+}
+
+.bigText {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.description {
+  font-color: #8a8fb9;
+  font-weight: 300;
+}
+
+.shopButton {
+  display: flex;
+  width: 150px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #fb2d86;
+  color: white;
+}
+
+/* === HIGHLIGHTS === */
+
+.highlightsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+/* featured */
+.bigFeatured {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: black;
+  background-color: #f6f7fb;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 200px;
+  align-items: center;
+}
+
+.featuredImage {
+  display: flex;
+  padding: 25px;
+}
+
+.chairDetails {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  border-width: 1px;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+.chairName {
+  color: #fb4693;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.chairCode {
+  display: flex;
+  font-size: small;
+}
+
+.chairPrice {
+  display: flex;
+  align-self: center;
+  font-size: small;
+}
+
+.featuredContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured {
+  display: flex;
+  gap: 20px;
+}
+
+/* latest */
+.latestContainer {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.latestCard {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.latestCardImgWrapper {
+  background-color: #f7f7f7;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.latestCardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.latestCardPrice {
+  display: flex;
+  gap: 5px;
+}
+.oldPrice {
+  color: #fb2548;
+  text-decoration: line-through;
+}
+
+.latestGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.latestTypes {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* === SPECIAL OFFER === */
+
+.specialOffer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #f1f0ff;
+}
+
+.specialOfferInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+.specialOfferTitle {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.specialOfferList {
+  font-size: smaller;
+  font-weight: 300;
+  color: #b1b0c7;
+  padding-left: 30px;
+  list-style: none;
+}
+
+.specialOfferListItem:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.specialOfferListItem::before {
+  content: "\2022";
+  color: #00f;
+  font-weight: bold; /* If you want it to be bold */
+  font-size: 20pt;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.redItem::before {
+  color: red;
+}
+
+.blueItem::before {
+  color: blue;
+}
+
+.greenItem::before {
+  color: greenyellow;
+}
+
+.specialOfferActionContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.addToCartBtn {
+  background-color: #fb2d86;
+  border: 0px;
+  color: white;
+  padding: 10px 15px;
+  width: 120px;
+}
+
+.specialInfoItemInfo {
+  font-size: small;
+}
+
+.offersContainer {
+  display: flex;
+  flex-direction: in-line;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  margin-top: -20px;
+}
+
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f6f7fb;
+  width: 200px;
+  height: 250px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.offerImage {
+  display: flex;
+  flex-direction: center;
+  margin-top: 35px;
+}
+
+.support {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.offerDescription {
+  display: flex;
+  color: grey;
+  font-weight: 300;
+  font-size: 12pt;
+  padding: 10px;
+}
+
+.offerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offerCards {
+  display: flex;
+  gap: 40px;
+}

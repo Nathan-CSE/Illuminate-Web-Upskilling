@@ -4,6 +4,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Cart from "./pages/Cart";
 import Browse from "./pages/Browse";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Browse />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </MainContainer>
   );
